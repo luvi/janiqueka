@@ -33,9 +33,9 @@ main:
     alt: Coffee beans
     image: /img/products-grid1.jpg
 testimonials: []
-full_image: /img/products-full-width.jpg
+full_image: /img/blog-index.jpeg
 pricing:
-  heading: ...
-  description: ...
+  heading: Support my projects
+  description: buymeacoffee.com/luvi
   plans: []
 ---
