@@ -37,5 +37,10 @@ full_image: /img/blog-index.jpeg
 pricing:
   heading: Support my projects
   description: buymeacoffee.com/luvi
-  plans: []
+  plans:
+    - plan: test
+      price: "10"
+      description: test
+      items:
+        - test
 ---
