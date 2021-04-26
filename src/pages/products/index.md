@@ -8,7 +8,9 @@ description: " My side projects are based on dolor sit amet, consectetur
   adipiscing elit. Vivamus sit amet nulla eleifend, mollis erat eu, efficitur
   dolor. Vivamus fringilla neque a risus pharetra, ac venenatis arcu tempus."
 intro:
-  blurbs: []
+  blurbs:
+    - text: test
+      image: /img/blog-index.png
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
