@@ -4,7 +4,7 @@ title: Building caricovidmap.com
 date: 2017-01-04T15:04:10.000Z
 description: Building caricovidmap was lorem ipsum dolor sit amet.
 featuredpost: true
-featuredimage: /img/3tyt9byr.jpg-medium.jpeg
+featuredimage: /img/screenshot-2021-04-26-at-12.03.55.png
 tags:
   - open source
   - software
