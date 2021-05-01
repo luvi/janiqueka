@@ -36,13 +36,4 @@ main:
     image: /img/products-grid1.jpg
 testimonials: []
 full_image: /img/blog-index.jpeg
-pricing:
-  heading: Support my projects
-  description: buymeacoffee.com/luvi
-  plans:
-    - plan: test
-      price: "10"
-      description: test
-      items:
-        - test
 ---
