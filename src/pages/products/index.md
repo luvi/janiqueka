@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: Projects
-image: /img/xsf6zznt.jpg-medium.jpeg
+image: /img/blog-index.jpeg
 heading: Side projects
 path: /products
 description: " My side projects are based on dolor sit amet, consectetur
