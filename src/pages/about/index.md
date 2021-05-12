@@ -11,4 +11,4 @@ Janique-ka founded Women in Tech Caribbean in 2019 after realising a need for an
 
 ### Passionate about problem solving for the Caribbean
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet nulla eleifend, mollis erat eu, efficitur dolor. Vivamus fringilla neque a risus pharetra, ac venenatis arcu tempus. Nulla ut euismod mi. Mauris tincidunt eleifend purus. Cras ullamcorper vitae eros eu elementum. Fusce aliquam fermentum efficitur. Nulla a lectus a turpis egestas egestas in in libero.
+Through projects like caricovidmap, and experimenting with a Twitter bot that tweets out Vincentian news, Janique-ka has proven that she is enthusiatic about development, but also in a context of solving Caribbean problems.
