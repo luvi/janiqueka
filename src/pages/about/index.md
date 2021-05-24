@@ -3,6 +3,8 @@ templateKey: about-page
 path: /about
 title: About me
 ---
+
+
 ![](/img/mostrecent.png)
 
 Janique-ka John was born and raised in St.Vincent and the Grenadines, where she first fell in love with computers and computing. During her bachelor's degree at the University of the West Indies Cave Hill she discovered her love for programming and went on to pursue a Masters Degree in Applied Computer Science. She has been working in Brussels as a Software Engineer for the past 3.5 years and is the Founder of the Women in Tech Caribbean Community.
@@ -14,3 +16,6 @@ Janique-ka founded Women in Tech Caribbean in 2019 after realising a need for an
 ### Passionate about problem solving for the Caribbean
 
 Through projects like caricovidmap, and experimenting with a Twitter bot that tweets out Vincentian news, Janique-ka has proven that she is enthusiatic about development, but also in a context of solving Caribbean problems.
+
+<a href="" download>Download Resume</a> <br>
+<a href="/img/mostrecent.png" download>Download Headshot </a>
