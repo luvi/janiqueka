@@ -2,7 +2,8 @@
 templateKey: blog-post
 title: Building caricovidmap.com, Part 1
 date: 2021-05-24T16:04:06.565Z
-description: Building caricovidmap was lorem ipsum dolor sit amet.
+description: Building caricovidmap was a project that just fell into my lap, but
+  continues to be one of the most fulfilling projects I've worked on.
 featuredpost: true
 featuredimage: /img/screenshot-2021-04-26-at-12.03.55.png
 tags:
