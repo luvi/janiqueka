@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
-title: Building caricovidmap.com
-date: 2017-01-04T15:04:10.000Z
+title: Building caricovidmap.com, Part 1
+date: 2021-05-24T15:52:20.569Z
 description: Building caricovidmap was lorem ipsum dolor sit amet.
 featuredpost: true
 featuredimage: /img/screenshot-2021-04-26-at-12.03.55.png
@@ -10,18 +10,22 @@ tags:
   - software
   - mapping
 ---
-Consectetur adipiscing elit. Morbi consectetur magna et purus aliquam, at iaculis leo consectetur. Morbi nec augue finibus, tristique nulla id, interdum massa. Morbi vitae sollicitudin ipsum, sed porta magna. Sed luctus consectetur orci, id condimentum risus consequat eu. Nunc justo augue, malesuada et rhoncus sit amet, eleifend fringilla sapien. Donec sagittis tellus at eros consequat, eu porta massa porttitor. Duis non risus convallis nulla volutpat tempor sed non sapien. Duis tincidunt a risus tincidunt mattis. Vivamus egestas sagittis turpis et venenatis. Aenean congue condimentum magna nec mattis. Praesent vel libero in lorem tincidunt placerat.
+caricovidmap.com is a website that centralizes Caribbean information related to the COVID-19 pandemic, and now the vaccination roll out. This project was born after being contacted by a journalist who was lamenting the lack of Caribbean focused COVID-19 data resources. He wondered if it would be possible to use Johns Hopkins dataset to create a Caribbean focused map, and the very night I developed a Proof Of Concept (POC) to show the journalist. 
+
+What started out as a simple POC has now grown into a year long project that I work on in my spare time, that has evolved and shifted to suit the changing needs of the pandemic.
 
 ## Deciding on the tech stack
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet nulla eleifend, mollis erat eu, efficitur dolor. Vivamus fringilla neque a risus pharetra, ac venenatis arcu tempus. Nulla ut euismod mi. Mauris tincidunt eleifend purus. Cras ullamcorper vitae eros eu elementum. Fusce aliquam fermentum efficitur. Nulla a lectus a turpis egestas egestas in in libero. Integer id tempus justo. Ut varius mi vel purus bibendum, quis mollis est laoreet. Sed efficitur erat id egestas egestas. Aenean nec ornare quam. Fusce pulvinar dapibus urna, eu suscipit massa pharetra ac. Sed rutrum libero ac lectus ultricies convallis. Aenean a arcu pretium, venenatis orci at, dignissim leo.
+React seemed like a natural choice for the POC, even as I was eager to try out the framework since I had just picked up a role in my current company in April as a frontend engineer. I actually hadnt really worked with the framework before, aside from experimenting with React Native for an app I am building.
+
+I had the data endpoint for the Johns Hopkins data set, and had decided to go with React for the frontend. Given that this was just meant to be a quick mockup of the possibilities. I decided against a backend where I would persist the information collected from Johns Hopkins.
 
 > Once I had the data endpoint, all that was necessary to do was to iterate over Caribbean countries
 
-Aenean nec ornare quam. Fusce pulvinar dapibus urna, eu suscipit massa pharetra ac. Sed rutrum libero ac lectus ultricies convallis. Aenean a arcu pretium, venenatis orci at, dignissim leo.
+In the end, I ended up deploying via Netlify which would track and autodeploy the code on the master branch of my Github repository. 
 
 ## Challenges
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet nulla eleifend, mollis erat eu, efficitur dolor. Vivamus fringilla neque a risus pharetra, ac venenatis arcu tempus. Nulla ut euismod mi. Mauris tincidunt eleifend purus. Cras ullamcorper vitae eros eu elementum. Fusce aliquam fermentum efficitur. Nulla a lectus a turpis egestas egestas in in libero. Integer id tempus justo. Ut varius mi vel purus bibendum, quis mollis est laoreet. Sed efficitur erat id egestas egestas. Aenean nec ornare quam. Fusce pulvinar dapibus urna, eu suscipit massa pharetra ac. Sed rutrum libero ac lectus ultricies convallis. Aenean a arcu pretium, venenatis orci at, dignissim leo.
-
-Quisque venenatis turpis sed magna elementum, sit amet pulvinar mi molestie. Nam pretium libero urna, in porta elit lacinia eu. Phasellus nec malesuada massa. Nulla facilisi. Mauris blandit quis orci eget viverra. Suspendisse potenti. Phasellus et felis id felis vulputate egestas eget quis odio. Sed fringilla justo eget viverra tempus. In ac arcu tortor.
+For the first iteration of the map, I faced some challenges with the parsing the data. During a live coding session on twitch, A fellow Caribbean engineer pointed out that I could just use lodash to do some of the things that I was doing manually. \
+\
+Additionally, I had to do some cleanup and manipulation of the Johns Hopkins data, as for example they mistakenly had the same coordinates for Belize and Barbados. In a second blog post I will dive into more technical depth about parts of the codebase, how requirements evolved over the course of the pandemic, and about the decision to make this an open source project.
