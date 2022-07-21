@@ -4,8 +4,7 @@ path: /about
 title: About me
 ---
 
-
-![](/img/Headshot.jpg)
+<img src="/img/Headshot.jpg" alt="headshot" width="200"/>
 
 Janique-ka John was born and raised in St.Vincent and the Grenadines, where she first fell in love with computers and computing. During her bachelor's degree at the University of the West Indies Cave Hill she discovered her love for programming and went on to pursue a Masters Degree in Applied Computer Science. She has been working in Brussels as a Software Engineer for the past 4+ years and is the Founder of the Women in Tech Caribbean Community.
 
@@ -22,8 +21,9 @@ In 2021, Janique-ka was named among the inaugural group of Twitter Developer Ins
 
 <a href="https://twittercommunity.com/t/introducing-the-twitter-developer-insider-program/161002"> Read the announcement here.</a>
 <a href="https://developer.twitter.com/en/blog/success-stories/spaces-search"> Feature by Twitter on Spaces Search App </a>
+<a href="https://www.reuters.com/article/twitter-developers-idCAKBN2I01Y0"> Reuters article </a>
 
-<a href="https://github.com/luvi/botstarter"> Repo to help developers get started building a good bot </a>
+<a href="https://github.com/luvi/botstarter"> Repo for building Twitter bots </a>
 
 
 ### Active projects

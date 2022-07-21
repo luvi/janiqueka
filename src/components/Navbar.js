@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 import github from '../img/github-icon.svg'
 import instagram from '../img/social/instagram.svg'
 import twitter from '../img/social/twitter.svg'
+import polywork from '../img/social/polywork.svg'
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -96,7 +97,13 @@ const Navbar = class extends React.Component {
                   <img src={github} alt="Github" />
                 </span>
               </a>
-            
+              <a className="navbar-item" title="polywork" href="https://poly.work/janiqueka">
+                  <img
+                    src={polywork}
+                    alt="Polywork"
+                    style={{ width: '1em', height: '1em' }}
+                  />
+                </a>
             </div>
           </div>
         </div>
