@@ -32,7 +32,7 @@ In 2021, Janique-ka was named among the inaugural group of Twitter Developer Ins
 
 ### Past Projects
 
-<a href="www.caricovidmap.com"> Caribbean COVID Map </a>
+<a href="http://www.caricovidmap.com"> Caribbean COVID Map </a>
 
 ### Resume & Headshot
 
