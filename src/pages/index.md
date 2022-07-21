@@ -6,7 +6,7 @@ heading: Passionate about problem solving in a Caribbean context.
 subheading: Software Engineer
 mainpitch:
   title: Skills
-  description: React JS, Redux, HTML + CSS, Javascript, Java, Public Speaking
+  description: Frontend Development, Public Speaking, Software Engineering
 description: Technology has long since proven to be a powerful tool and aid in
   helping me solve problems in a Caribbean context. I love how frictionless it
   is to go from idea to the masses in a short space of time, through coding and
