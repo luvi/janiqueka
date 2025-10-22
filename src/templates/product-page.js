@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
+import { getSrc } from 'gatsby-plugin-image'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import Testimonials from '../components/Testimonials'
@@ -21,7 +22,7 @@ export const ProductPageTemplate = ({
       className="full-width-image-container margin-top-0"
       style={{
         backgroundImage: `url(${
-          !!image.childImageSharp ? image.childImageSharp.fluid.src : image
+          !!image.childImageSharp ? getSrc(image) : image
         })`,
       }}
     >
@@ -84,7 +85,7 @@ export const ProductPageTemplate = ({
                 style={{
                   backgroundImage: `url(${
                     fullImage.childImageSharp
-                      ? fullImage.childImageSharp.fluid.src
+                      ? getSrc(fullImage)
                       : fullImage
                   })`,
                 }}
@@ -152,9 +153,7 @@ export const productPageQuery = graphql`
         title
         image {
           childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
+            gatsbyImageData(width: 2048, quality: 100, layout: FULL_WIDTH)
           }
         }
         heading
@@ -170,9 +169,7 @@ export const productPageQuery = graphql`
             alt
             image {
               childImageSharp {
-                fluid(maxWidth: 526, quality: 92) {
-                  ...GatsbyImageSharpFluid
-                }
+                gatsbyImageData(width: 526, quality: 92)
               }
             }
           }
@@ -182,9 +179,7 @@ export const productPageQuery = graphql`
         }
         full_image {
           childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
+            gatsbyImageData(width: 2048, quality: 100, layout: FULL_WIDTH)
           }
         }
       }

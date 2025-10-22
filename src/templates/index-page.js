@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
+import { getImage, getSrc } from 'gatsby-plugin-image'
 
 import Layout from '../components/Layout'
 import Features from '../components/Features'
@@ -20,7 +21,7 @@ export const IndexPageTemplate = ({
       className="full-width-image margin-top-0"
       style={{
         backgroundImage: `url(${
-          !!image.childImageSharp ? image.childImageSharp.fluid.src : image
+          !!image.childImageSharp ? getSrc(image) : image
         })`,
         backgroundPosition: `top left`,
         backgroundAttachment: `fixed`,
@@ -161,9 +162,7 @@ export const pageQuery = graphql`
         title
         image {
           childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
+            gatsbyImageData(width: 2048, quality: 100, layout: FULL_WIDTH)
           }
         }
         heading
